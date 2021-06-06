@@ -18,3 +18,4 @@ if __name__ == '__main__':
     print(f"{full_name.title()} once said, \"{language}\"")
     print(f"{full_name.title().strip()} once said,\"{language.title()}\" \r{full_name.title()} once said,\"{language}\"")
 
+    print()
