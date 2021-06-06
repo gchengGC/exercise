@@ -21,6 +21,7 @@ while len(guestes) > 2:
 while len(guestes) > 0:
     join_guest = guestes[int(len(guestes) - 1)]
     print(f"{join_guest.title()},please join the party. ")
+    print(f"This total {len(guestes)} guest join the party.")
     del guestes[int(len(guestes) - 1)]
     if guestes == []:
         print("The guestes is Null")
