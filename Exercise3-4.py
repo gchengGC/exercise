@@ -17,7 +17,7 @@ for guest in guestes:
 while len(guestes) > 2:
     last_guest = guestes.pop()
     print(f"{last_guest.title()},I'm so sorry you can not join the party,")
-
+'''
 while len(guestes) > 0:
     join_guest = guestes[int(len(guestes) - 1)]
     print(f"{join_guest.title()},please join the party. ")
@@ -25,3 +25,10 @@ while len(guestes) > 0:
     del guestes[int(len(guestes) - 1)]
     if guestes == []:
         print("The guestes is Null")
+'''
+
+while len(guestes) > 0:
+    print(f"{guestes[-1].title()}, Please join the party.")
+    del guestes[-1]
+    if len(guestes) == 0:
+        print("The guestes is Null.")
