@@ -4,7 +4,7 @@ def make_album(Singer, Album, Musics = None):
     if Musics:
         Albums['Musics'] = Musics
     total_album[Singer] = Albums
-    return  Albums
+    return Albums
 
 while True:
     print("\nPlease input Singer、Albums、Music:")
